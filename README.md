@@ -11,6 +11,8 @@ If you don't want to build the image you can run the pre-built container image w
 docker run -d --name bailbloc --cpus="1" thshaw/bailbloc
 ```
 
+For details on CPU restriction check out : https://docs.docker.com/engine/admin/resource_constraints/#cpu
+
 ## Build the container image
 ```
 docker build -t bailbloc:latest .
